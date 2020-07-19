@@ -1,0 +1,453 @@
+body{
+    background-color: black;
+}
+#contengo{
+    display: inline-block;
+    vertical-align: middle;
+    height: 480px;
+    width: 1300px;
+    line-height: 50%;
+    margin-left: 8px;
+    margin-top: 105px;
+    position: absolute;
+    opacity: 0.9; 
+    background-color: black
+    
+}
+#tablero{
+display: inline-block;
+vertical-align: middle;
+height: 480px;
+width: 480px;
+line-height: 50%;
+margin-left: 320px;
+margin-top: 0px;
+position: fixed;
+
+
+}
+#caja {
+    width: 80px;
+    height: 480px;
+    background-color: steelblue;
+    float: left;
+    position: relative;
+    border-radius: 5%;
+}
+#caja_2 {
+    width: 80px;
+    height: 480px;
+    margin-left: 0px;
+    background-color: steelblue;
+    float: right;
+    position: relative;
+    border-radius: 5%;
+}
+#a1{
+    margin-top: 400px;
+    margin-left: 0px;
+    background-color:#741C09;
+   
+}
+#b1{
+    margin-top: 400px;
+    margin-left: 80px;
+
+}
+#c1{
+    margin-top: 400px;
+    margin-left: 160px;
+    background-color:#741C09;
+
+}
+#d1{
+    margin-top: 400px;
+    margin-left: 240px;
+  
+}
+#e1{
+    margin-top: 400px;
+    margin-left: 320px;
+    background-color:#741C09;
+    
+}
+#f1{
+    margin-top: 400px;
+    margin-left: 400px;
+  
+}
+#a2{
+    margin-top: 320px;
+    margin-left: 0px;
+}
+#b2{
+    margin-top: 320px;
+    margin-left: 80px;
+    background-color:#741C09;
+}
+#c2{
+    margin-top: 320px;
+    margin-left: 160px;
+}
+#d2{
+    margin-top: 320px;
+    margin-left: 240px;
+    background-color:#741C09;
+}
+#e2{
+    margin-top: 320px;
+    margin-left: 320px;
+    
+}
+#f2{
+    margin-top: 320px;
+    margin-left: 400px;
+    background-color:#741C09;
+}
+
+
+#a3{
+    margin-top:240px;
+    margin-left: 0px;
+    background-color:#741C09;
+}
+#b3{
+    margin-top:240px;
+    margin-left: 80px;
+}
+#c3{
+    margin-top:240px;
+    margin-left:160px;
+    background-color:#741C09;
+}
+#d3{
+    margin-top:240px;
+    margin-left: 240px;
+}
+#e3{
+    margin-top:240px;
+    margin-left: 320px;
+    background-color:#741C09;
+}
+#f3{
+    margin-top:240px;
+    margin-left: 400px;
+}
+
+#a4{
+    margin-top: 160px;
+    margin-left: 0px;
+}
+#b4{
+    margin-top: 160px;
+    margin-left: 80px;
+    background-color:#741C09;
+}
+#c4{
+    margin-top: 160px;
+    margin-left:160px;
+}
+#d4{
+    margin-top: 160px;
+    margin-left: 240px;
+    background-color:#741C09;
+}
+#e4{
+    margin-top: 160px;
+    margin-left: 320px;
+}
+#f4{
+    margin-top: 160px;
+    margin-left: 400px;
+    background-color:#741C09;
+}
+#a5{
+    margin-top: 80px;
+    margin-left: 0px;
+    background-color:#741C09;
+}
+#b5{
+    margin-top: 80px;
+    margin-left: 80px;
+}
+#c5{
+    margin-top: 80px;
+    margin-left:160px;
+    background-color:#741C09;
+}
+#d5{
+    margin-top: 80px;;
+    margin-left: 240px;
+}
+#e5{
+    margin-top: 80px;
+    margin-left: 320px;
+    background-color:#741C09;
+}
+#f5{
+    margin-top: 80px;
+    margin-left: 400px;
+   }
+
+#a6{
+    margin-top: 0px;
+    margin-left: 0px;
+}
+#b6{
+    margin-top: 0px;
+    margin-left: 80px;
+    background-color:#741C09;
+}
+#c6{
+    margin-top: 0px;
+    margin-left:160px;
+}
+#d6{
+    margin-top: 0px;
+    margin-left: 240px;
+    background-color:#741C09;
+}
+#e6{
+    margin-top: 0px;
+    margin-left: 320px;
+}
+#f6{
+    margin-top: 0px;
+    margin-left: 400px;
+    background-color:#741C09;
+}
+.casilla{
+    width: 80px;
+    height: 80px;
+    background-color:#E18D14;
+    position: fixed;
+}
+
+    
+
+.pieza {
+    width: 80px;
+    height: 80px;
+    background-size: 100% 100%;
+    object-fit: cover;
+    object-position: center;
+    position: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+#torre {
+    background-image: url(../visor/imagenes/torre.png);
+    margin-top: 160px;
+    margin-left: 0px;
+    
+    }
+#alfil {
+        background-image: url(../visor/imagenes/alfil.png);
+        margin-top:240px;
+        margin-left: 0px;
+        background-size: 90% 90%;         
+        }
+#dama {
+    background-image: url(../visor/imagenes/dama.png);
+    margin-top: 80px;
+    margin-left: 0px;
+    background-size: 90% 90%;         
+        }
+#rey {
+    background-image: url(../visor/imagenes/rey.png);
+    margin-top: 0px;
+    margin-left: 0px;
+    background-size: 90% 90%;         
+        }
+#caballo {
+    background-image: url(../visor/imagenes/caballo.png);
+    margin-top: 320px;
+    margin-left: 0px;
+    background-size: 90% 90%;         
+         }
+#peon{
+    background-image: url(../visor/imagenes/peon.png);
+    margin-top: 400px;
+    margin-left: 0px;
+    background-size: 90% 90%;         
+                 }
+/*  PIEZAS NEGRAS */
+
+#torre_negra{
+background-image: url(../visor/imagenes/torre_negra.png);
+margin-top: 160px;
+margin-left: 1220px;
+background-size: 105% 105%; 
+
+
+        }
+#caballo_negro{
+background-image: url(../visor/imagenes/caballo_negro.png);
+margin-top: 320px;
+margin-left: 1220px;
+background-size: 93%; 
+            
+            
+}
+#rey_negro{
+background-image: url(../visor/imagenes/rey_negro.png);
+margin-top: 0px;
+margin-left: 1220px;
+background-size: 80%; 
+
+}
+#dama_negra{
+    background-image: url(../visor/imagenes/dama_negra.png);
+    margin-top: 80px;
+    margin-left: 1220px;
+    background-size: 90%;   
+    }
+#alfil_negro{
+        background-image: url(../visor/imagenes/alfil_negro.png);
+        margin-top: 240px;
+        margin-left: 1220px;
+        background-size: 105%; 
+        
+        }
+#peon_negro{
+            background-image: url(../visor/imagenes/peon_negro.png);
+            margin-top: 400px;
+            margin-left: 1220px;
+            background-size: 100%;   
+            }
+
+#dama_coronada_blanca {
+background-image: url(../visor/imagenes/dama.png);
+margin-top: 0px;
+margin-left: 320px;
+background-size: 90% 90%; 
+display: none;
+
+      
+                        }
+#dama_coronada_negra {
+background-image: url(../visor/imagenes/dama_negra.png);
+                            margin-top: 400px;
+                            margin-left: 320px;
+                            background-size: 90% 90%; 
+                            display: none;
+
+                           }
+.movida{
+        
+       border-radius: 6%;
+       opacity: 0.95;
+       width: 73px;
+       height: 75px;
+       border-style: double;
+       border-color: green;
+       border-width: 3px;
+       border-radius: 0px;
+       position: fixed;
+       box-sizing: content-box;
+}
+#turno_blanco{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    position: fixed;
+    margin-left: 300px;
+    margin-top: 420px;
+}
+#turno_negro{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:#6A2E2E;
+    position: fixed;
+    margin-left: 920px;
+    margin-top: 5px;
+}
+.turno{
+    opacity: 0.3;
+    }
+#edicion{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(81, 173, 81);
+    border-radius: 30%;
+    margin-left: 350px;
+    position: fixed;
+    margin-top: 10px;
+}
+#juego{
+    height: 50px;
+    width: 100px;
+    margin-left: 850px;  
+    background-color:red;
+    border-radius: 30%;
+    margin-top: 10px;
+    
+    float: left;
+    position: fixed;
+}
+#controles{
+    height: 30px;
+    width: 90px;
+    margin-left: 595px;  
+    background-color:grey;
+  
+    margin-top: 30px;
+    
+    float: left;
+    position: fixed;
+}
+#instrucciones{
+    height: 402px;
+    width: 327px;
+    background-image: url(../visor/imagenes/controles.png);
+    margin-left: 470px;
+    margin-top: 150px;
+    display: none;
+    
+}
+#cerrar{
+    width: 30px;
+    height: 30px;
+    background-image: url(../visor/imagenes/cerrar.png);
+    position: fixed;
+    object-fit: cover;
+    object-position: center;
+    position: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90% 90%;  
+    margin-left: 290px;
+    margin-top: 10px;
+    
+}
+p{
+    position: center;
+    text-align: center;
+    background-position: center;
+    font-size: 20px;
+    word-wrap: break-word;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav{
+    word-wrap: break-word;
+    position: center;
+    text-align: center;
+    margin-top: 5px;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+#menu{
+    height: 100px;
+    width: 1400px;
+    margin-top: -8px;
+    
+    position: fixed;
+}
+.opacidad
+{
+    opacity: 0.6;
+}
