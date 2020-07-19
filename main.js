@@ -609,7 +609,7 @@ function movimiento_caballo(){
         coordenadas_genericas(casillas[i]);
         coordenadas_pieza(pieza_movida);
     if (
-    ((((Math.abs(casilla_generica_x-pieza_movida_x)==160)) && 
+    (((((Math.abs(casilla_generica_x-pieza_movida_x)==160)) && 
     (Math.abs(casilla_generica_y-pieza_movida_y)==80))  
     ||
     (((Math.abs(casilla_generica_y-pieza_movida_y)==160))&& 
