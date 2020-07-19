@@ -249,7 +249,7 @@ position: fixed;
         background-size: 90% 90%;         
         }
 #dama {
-    background-image: url(../visor/imagenes/dama.png);
+    background-image: url(https://raw.githubusercontent.com/straviranus/ajedrez/master/imagenes/dama.png);
     margin-top: 80px;
     margin-left: 0px;
     background-size: 90% 90%;         
