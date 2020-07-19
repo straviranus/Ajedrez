@@ -28,7 +28,10 @@ function ajedrez () {
    }
    cerrar.addEventListener("click", out);
    function out(){
-    piezas[i].addEventListener('click', tocar);
+     for(i=0; i<piezas.length; i++){
+        piezas[i].addEventListener('click', tocar);
+        
+    }
     contenedor.style.opacity="1";
     instrucciones.style.display="none";
     if (turn==true){
