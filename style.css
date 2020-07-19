@@ -283,7 +283,7 @@ background-size: 105% 105%;
 
         }
 #caballo_negro{
-background-image: url(github/visor/imagenes/caballo_negro.png);
+background-image: url(../visor/imagenes/caballo_negro.png);
 margin-top: 320px;
 margin-left: 1220px;
 background-size: 93%; 
