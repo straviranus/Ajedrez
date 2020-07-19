@@ -243,7 +243,7 @@ position: fixed;
     
     }
 #alfil {
-        background-image: url(../visor/imagenes/alfil.png);
+        background-image: url(https://raw.githubusercontent.com/straviranus/ajedrez/master/imagenes/alfil.png);
         margin-top:240px;
         margin-left: 0px;
         background-size: 90% 90%;         
